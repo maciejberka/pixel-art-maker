@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+header {
+  text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: 2rem;
+}
+
+.setSize{
+  width: 350px;
+  height: 32px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: arial, sans-serif;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cadetblue;
+  border: 1px solid black;
+}
+
+span {
+  margin-left: auto;
+  line-height: 32px;
+  
+}
+
+#submit {
+  height: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+#inputHeight, #inputWidth {
+  width: 80px;
+  margin: 5px;
+}
+
+.tools{
+  width: 230px;
+  margin: 20px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: cadetblue;
+  border: 1px solid black;
+}
+
+#color, #eraser, #hideGrid, #clearGrid {
+/*  position: relative;*/
+  margin: 10px;
+  
+}
+
+#hideGrid, #clearGrid {
+  font-family: arial, sans-serif;
+}
+
+
+.grid{
+  margin-bottom: 110px;
+  
+  z-index: 20;
+  height: auto;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+table {
+/*  border-spacing: 0;*/
+  border-collapse: collapse;
+  /*cursor: crosshair;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+td {
+  height: 15px;
+  width: 15px;
+  border: 0.1px solid grey;
+  background-color: white;
+  margin: 0;
+  
+}
+
+#color {
+  height: 40px;
+  width: 40px;
+}
+
+#eraser {
+  height: 40px;
+  width: 40px;
+  font-size: 1.8rem;
+}
+
+#hideGrid {
+  height: 40px;
+  width: 40px;
+}
+
+#clearGrid {
+  height: 40px;
+  width: 40px;
+}
+
+.active {
+  background-color: limegreen;
+}
+
+.noneGrid {
+  border-style: none;
+}
+
+.clearGrid {
+  background-color: white;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  background-color: cadetblue;
+  border-top: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
+
+.aboutProject {
+  width: 50%;
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+.author {
+  width: 50%;
+  text-align: center;
+  font-family: arial, sans-serif;
+}
